@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(227, 230, 233);
+}
+
+/* header */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 230, 233);
+    height: 80px;
+    padding: 0 6em;
+}
+
+.nav>div:nth-child(1)>span {
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    margin: 0 14px;
+}
+
+.nav>div:nth-child(1)>span:nth-child(1) {
+    background-color: rgb(230, 155, 34);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.nav>div:nth-child(1)>span:nth-child(6) {
+    font-weight: bold;
+    color: black;
+}
+
+.nav>div:nth-child(2)>span {
+    margin: 0 14px;
+}
+
+.nav>div:nth-child(2)>button {
+    border: 2px solid rgb(164, 164, 164);
+    padding: 8px 14px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+/* main */
+
+.pro-stock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: 20px;
+}
+
+.pro-stock h1 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.pro-stock p {
+    color: rgb(131, 128, 128);
+    text-align: center;
+}
+
+.pro-stock input {
+    font-size: 10px;
+    color: rgb(131, 128, 128);
+    padding: 10px 110px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 6em;
+}
+
+.icons>div:nth-child(1)>span {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.icons>div:nth-child(1)>span:nth-child(4) {
+    color: tomato;
+}
+
+.icons>div:nth-child(1)>span:last-child {
+    color: rgba(0, 0, 255, 0.398)
+}
+
+.icons>div:nth-child(2)>span {
+    margin: 0 10px;
+}
+
+.downloads {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em;
+}
+
+.downloads>div {
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.downloads>div>img {
+    height: 200px;
+    width: 290px;
+    border-radius: 7px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.downloads>div>div{
+    text-align: center;
+}
+.downloads>div>div>p{
+    font-size: 23px;
+    color: rgba(96, 96, 96, 0.79);
+    margin-bottom: 20px;
+}
+.downloads>div>div>a{
+    font-size: 23px;
+    color: black;
+    font-weight: 800;
+}
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 6em;
+}
+.collections>div>a{
+    color: black;
+    font-size: 17px;
+}
+.collections>div:nth-child(2){
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.collections>div:nth-child(3)>span{
+    padding: 6px;
+    border-radius: 3px;
+}
+/* .collections>div:nth-child(1)>span{
+    padding: ;
+} */
+.collections>div:nth-child(3)>span:nth-child(2){
+    background-color: rgba(128, 128, 128, 0.111);
+}
+.collections>div:nth-child(3)>span:nth-child(4){
+    background-color: rgba(128, 128, 128, 0.324);
+}
+.collections>div:nth-child(3)>span:nth-child(3){
+    background-color: whitesmoke;
+    border: 1px solid rgba(128, 128, 128, 0.423);
+}
