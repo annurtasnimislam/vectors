@@ -73,6 +73,7 @@ body {
     padding: 10px 110px;
     border-radius: 5px;
     border-color: white;
+    outline: none;
 }
 
 .icons {
